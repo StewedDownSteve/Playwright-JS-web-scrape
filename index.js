@@ -7,7 +7,6 @@ async function sortHackerNewsArticles() {
   // create new page
   const context = await browser.newContext();
   const page = await context.newPage();
-
   // go to Hacker News, the 'newest' page
   await page.goto("https://news.ycombinator.com/newest");
 
@@ -71,7 +70,7 @@ async function sortHackerNewsArticles() {
   if (sorted) {
       console.log('The first 100 articles are sorted from newest to oldest.');
   } else {
-      console.log('The articles are NOT sorted correctly.');
+      console.log('The articles are NOT sorted correctly. Debug!');
   }
 
   await browser.close();
@@ -89,12 +88,14 @@ async function sortHackerNewsArticles() {
 
 
 // while() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while 
+// Date - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 // every() -  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
 // map() - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
 // spread syntax - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
-// https://developer.mozilla.org/en-US/docs/Web/API/Element/nextElementSibling
+// nextElementSibling - https://developer.mozilla.org/en-US/docs/Web/API/Element/nextElementSibling
 
 
-//  Set - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
+
 // locator, evaluate all - https://playwright.dev/docs/api/class-locator#locator-evaluate-all
+// $$eval -  https://playwright.dev/docs/evaluating
 // Mouse click -  https://playwright.dev/docs/input#mouse-click
