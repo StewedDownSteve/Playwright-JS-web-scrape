@@ -1,14 +1,1 @@
-Steve Replogle | QA Engineer
 
-
-Dear QA Wolf Hiring Team,
-
-I'm excited to apply for the QA Engineer role at QA Wolf. With a strong background in frontend development, JavaScript, and customer-facing roles, I thrive in environments that prioritize ownership, speed, and impact.
-
-In my work with clients, I’ve spent a lot of time troubleshooting and ensuring quality across their websites. I know firsthand how valuable automation can be in catching issues early and saving time on repetitive testing. While this challenge was my first hands-on experience with Playwright, I quickly saw its potential in streamlining frontend QA, and I’m eager to dive deeper. I believe in taking ownership, solving problems self-directed, and making decisions that drive real business value.
-
-As requested I also submited a short Loom video of my take-home challenge and would love the opportunity to contribute. Looking forward to connecting!
-
-Best,
-Steven Replogle
-steverepdev@gmail.com
